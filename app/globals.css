@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0f0518;
+  --foreground: #E6E6FA;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  
+  --color-brand-dark: #0f0518;
+  --color-brand-purple: #8A2BE2;
+  --color-brand-purple-dark: #4B0082;
+  --color-brand-green: #32CD32;
+  --color-brand-light: #E6E6FA;
+
+  --font-press-start: var(--font-press-start);
+  --font-share-tech: var(--font-share-tech);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}

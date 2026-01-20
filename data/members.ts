@@ -5,7 +5,7 @@ export const members: Member[] = [
     name: "Aryma",
     bio: "sCmxMdZ/vRqjAToDmLMw+sv55IkG5/CeDf0DaW27DU5s49ZtyninNpmDlMtskoru",
     github: "https://github.com/Aryma-f4",
-    personal_website: "https://imrnes.team",
+    personal_website: "https://aryma.imrnes.team",
     contact: "aryma@imrnes.team",
     optional_contact: "Discord: Worldsavior",
     avatar_url: "aryma.gif" 
@@ -53,6 +53,13 @@ export const members: Member[] = [
     bio: "Copy, paste, hack, repeat",
     github: "https://github.com",
     personal_website: "https://localhost:3000",
+  },
+  {
+    name: "Mytheclipse",
+    bio: "Copy, paste, hack, repeat",
+    github: "https://github.com",
+    personal_website: "https://localhost:3000",
   }
+  
 ];
 

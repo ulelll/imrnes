@@ -18,7 +18,7 @@ export default function Home() {
             <div className="h-px w-10 sm:w-20 bg-brand-green/50"></div>
           </div>
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 w-full">
+          <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-12 w-full">
             {members.map((member, index) => (
               <MemberCard key={index} member={member} />
             ))}
